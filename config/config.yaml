@@ -1,0 +1,4 @@
+db_dir: "db"
+data_dir: "data"
+results_dir: "results"
+threads: 16

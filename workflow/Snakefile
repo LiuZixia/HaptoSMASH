@@ -1,0 +1,47 @@
+configfile: "config/config.yaml"
+
+rule all:
+    input:
+        f"{config['results_dir']}/env_check/summary.txt"
+
+rule check_core_env:
+    output:
+        f"{config['results_dir']}/env_check/core.txt"
+    conda:
+        "../envs/core.yaml"
+    shell:
+        """
+        mkdir -p $(dirname {output})
+        python -c "import pyhmmer, Bio, polars, pyranges; print('Python stack OK | pyhmmer:', pyhmmer.__version__)" > {output}
+        seqkit version >> {output}
+        miniprot --version >> {output}
+        iqtree --version >> {output}
+        command -v hmmsearch diamond mmseqs hisat2 samtools >> {output}
+        """
+
+rule check_decontam_env:
+    output:
+        f"{config['results_dir']}/env_check/decontam.txt"
+    conda:
+        "../envs/decontam.yaml"
+    shell:
+        """
+        mkdir -p $(dirname {output})
+        command -v tiara whokaryote.py > {output}
+        tiara -h > /dev/null && echo "tiara CLI OK" >> {output}
+        whokaryote.py -h > /dev/null && echo "whokaryote CLI OK" >> {output}
+        """
+
+rule summarize_check:
+    input:
+        core=rules.check_core_env.output,
+        decontam=rules.check_decontam_env.output
+    output:
+        f"{config['results_dir']}/env_check/summary.txt"
+    shell:
+        """
+        echo "=== CORE ENV ===" > {output}
+        cat {input.core} >> {output}
+        echo "=== DECONTAM ENV ===" >> {output}
+        cat {input.decontam} >> {output}
+        """

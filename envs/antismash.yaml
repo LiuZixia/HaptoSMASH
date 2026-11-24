@@ -1,0 +1,9 @@
+name: haptosmash-engine
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - antismash=8.0.*
+  - pip
+  - setuptools

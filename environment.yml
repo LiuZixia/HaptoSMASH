@@ -1,0 +1,14 @@
+name: haptosmash-driver
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - snakemake=8.25.*
+  - snakemake-executor-plugin-slurm
+  - conda-lock
+  - conda-pack
+  - git
+  - ncbi-datasets-cli
+  - sra-tools
+  - aria2

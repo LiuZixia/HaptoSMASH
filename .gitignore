@@ -51,3 +51,20 @@ nisin/*
 !antismash/common/subprocessing/test/data/*
 # the docker container files should always be kept
 !docker
+
+# === HaptoSMASH 软链接大目录 ===
+/db
+/data
+/results
+.snakemake/
+logs/
+*.log
+*.fastq.gz
+*.bam
+*.bai
+
+# === 放行 HaptoSMASH 新增的一级工作流与环境目录 ===
+!/config/
+!/envs/
+!/workflow/
+!/resources/
