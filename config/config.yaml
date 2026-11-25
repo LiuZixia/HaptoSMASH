@@ -1,0 +1,21 @@
+samples_tsv: "config/samples.tsv"
+db_dir: "db"
+data_dir: "data"
+results_dir: "results"
+threads: 16
+
+databases:
+  antismash_dir: "db/antismash"
+  pfam_hmm: "db/pfam/Pfam-A.hmm"
+  pfam_dat: "db/pfam/Pfam-A.hmm.dat"
+  mibig_prot: "db/mibig/mibig_prot_seqs_4.0.fasta"
+  mibig_json_dir: "db/mibig/json/mibig_json_4.0"
+
+benchmarks:
+  pkzilla_hotspots_bed: "data/benchmarks/pkzilla_truth/zenodo_10309063_hotspot_liftover/2023-12-08_Hotspot_liftover/v1.1_liftover_PKS_hotspots_5000.merge.bed"
+  pkzilla_domains_dir: "data/benchmarks/pkzilla_truth/zenodo_11068523_pks_domain_to_module"
+  osf_dsyb_bed: "data/genomes/phaeocystis_osf_vka93/code/gene_mapping/parse_gene_mapping/dsyB_coords.bed"
+  osf_alma1_bed: "data/genomes/phaeocystis_osf_vka93/code/gene_mapping/parse_gene_mapping/Alma1_filtered.bed"
+
+seeds:
+  pkzilla1: "resources/seeds/pkzilla1_uniprot_A0AB34IYJ6.faa"

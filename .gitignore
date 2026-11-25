@@ -10,6 +10,7 @@ __pycache__
 *.brawn_cache
 .mypy_cache
 .pytest_cache
+tmp/
 *.dmnd
 *.hmm.h3f
 *.hmm.h3i
@@ -51,3 +52,4 @@ nisin/*
 !antismash/common/subprocessing/test/data/*
 # the docker container files should always be kept
 !docker
+!/config/
