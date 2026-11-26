@@ -11,6 +11,9 @@ __pycache__
 .mypy_cache
 .pytest_cache
 tmp/
+/data
+/db
+/results
 *.dmnd
 *.hmm.h3f
 *.hmm.h3i
@@ -53,3 +56,8 @@ nisin/*
 # the docker container files should always be kept
 !docker
 !/config/
+!/envs/
+!/workflow/
+!/resources/
+!/.qoder/
+!/.qoder/rules/
