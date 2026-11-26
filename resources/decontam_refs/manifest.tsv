@@ -1,0 +1,3 @@
+accession	organism	role	genome_fasta	contigs	total_bp	sha256	notes
+GCF_002983865.1	Roseobacter denitrificans	bacteria	data/decontam/references/GCF_002983865.1/genome.fna	3	4308791	2356f77b6b9e05f5cd99aa934edeb640f7e8cc86a501e2bfb37f743fdae5cd7d	NCBI RefSeq Complete Genome reference
+GCF_050500325.1	Alteromonas macleodii ATCC 27126	bacteria	data/decontam/references/GCF_050500325.1/genome.fna	1	4631137	32f1ed91b650635165dba3398706e4d174abc0587050f3a2fdb816b6a2e5e242	NCBI RefSeq Complete Genome reference
