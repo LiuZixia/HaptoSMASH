@@ -1,0 +1,37 @@
+{
+  "expectations": {
+    "negative": {
+      "maximum_calls": 0,
+      "required_accessions": []
+    },
+    "positive_KS": {
+      "required_accessions": [
+        "PF00109.33"
+      ]
+    },
+    "positive_LOX": {
+      "required_accessions": [
+        "PF00305.26"
+      ]
+    }
+  },
+  "fixture_sha256": "35736e3107cea69a2d11eb0217f3583f4f6059365adccc38f1573889ca3a9ce7",
+  "format": "hapto_core_hmm_smoke_v1",
+  "records": {
+    "negative": {
+      "description": "synthetic=true expected_calls=0",
+      "length_aa": 120,
+      "sequence_sha256": "4d81029a58e5bda490f69c02fb7197be01ce48665fa89d4b08bf4c6b3eddbd95"
+    },
+    "positive_KS": {
+      "description": "source=PKZILLA-1 protein_start=1350 protein_end=1786 coordinates=0-based-half-open",
+      "length_aa": 436,
+      "sequence_sha256": "0c211bc95c14f7f7b55a7a6ef10b0d84812339bf00601c43a5156fc494322a8a"
+    },
+    "positive_LOX": {
+      "description": "source=LOX_EMIHU full_length=true",
+      "length_aa": 230,
+      "sequence_sha256": "e6d8a7034ef5e6b883f579a07682d9bc3c756dcc0c532da3c60c8ff95bdcfb8b"
+    }
+  }
+}

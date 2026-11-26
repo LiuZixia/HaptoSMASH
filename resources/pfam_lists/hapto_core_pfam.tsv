@@ -1,0 +1,70 @@
+accession	model_name	track	role	rationale
+PF00109.33	ketoacyl-synt	A	backbone	Beta-ketoacyl synthase N-terminal domain; primary KS backbone evidence.
+PF02801.29	Ketoacyl-synt_C	A	backbone	Beta-ketoacyl synthase C-terminal domain; primary KS backbone evidence.
+PF16197.13	KAsynt_C_assoc	A	backbone	Ketoacyl-synthase C-terminal extension; supports KS backbone architectures.
+PF13723.14	Ketoacyl-synt_2	A	backbone	Alternative beta-ketoacyl synthase N-terminal family; retains divergent KS candidates.
+PF00698.27	Acyl_transf_1	A	backbone	Acyltransferase domain; primary AT/A backbone evidence.
+PF00550.33	PP-binding	A	backbone	Phosphopantetheine attachment domain; carrier backbone evidence.
+PF14573.12	PP-binding_2	A	backbone	Alternative acyl-carrier family; retains divergent carrier domains.
+PF00668.26	Condensation	A	backbone	NRPS condensation domain; primary C backbone evidence.
+PF00501.35	AMP-binding	A	backbone	Adenylate-forming domain; primary A backbone evidence.
+PF13193.14	AMP-binding_C	A	ancillary	AMP-binding C-terminal accessory domain; supports but does not define an A call.
+PF14535.14	AMP-binding_C_2	A	ancillary	Alternative AMP-binding C-terminal domain; architecture support only.
+PF01648.27	ACPS	A	ancillary	Phosphopantetheinyl transferase family; carrier machinery annotation rather than backbone proof.
+PF14765.14	PS-DH	A	ancillary	Polyketide synthase dehydratase N-terminal domain; reducing-module evidence.
+PF21089.5	PKS_DH_N	A	ancillary	Polyketide synthase dehydratase family; reducing-module evidence.
+PF08659.18	KR	A	ancillary	Ketoreductase domain; reducing-module evidence.
+PF00106.32	adh_short	A	ancillary	Short-chain dehydrogenase family; captures some KR/ER-related regions.
+PF13561.14	adh_short_C2	A	ancillary	Enoyl-ACP reductase-associated family; reducing-module support.
+PF08240.19	ADH_N	A	ancillary	Alcohol dehydrogenase GroES-like domain; redox architecture support.
+PF00107.33	ADH_zinc_N	A	ancillary	Zinc-binding dehydrogenase family; redox architecture support.
+PF13602.14	ADH_zinc_N_2	A	ancillary	Alternative zinc-binding dehydrogenase family; redox architecture support.
+PF01370.29	Epimerase	A	ancillary	NAD-dependent epimerase/dehydratase family; NRPS tailoring evidence.
+PF00975.27	Thioesterase	A	ancillary	Thioesterase domain; release-domain evidence.
+PF07859.21	Abhydrolase_3	A	ancillary	Alpha/beta hydrolase fold; possible release or editing function.
+PF00756.28	Esterase	A	ancillary	Putative esterase family; possible release or editing function.
+PF00583.33	Acetyltransf_1	A	ancillary	GNAT acetyltransferase family; tailoring annotation only.
+PF01757.30	Acyl_transf_3	A	ancillary	Alternative acyltransferase family; architecture support only.
+PF01553.27	Acyltransferase	A	ancillary	Additional acyltransferase family; architecture support only.
+PF18369.8	PKS_DE	A	ancillary	Polyketide synthase dimerisation element; architecture support only.
+PF23297.3	ACP_SdgA_C	A	ancillary	Highly reducing PKS-associated ACP domain; divergent carrier support.
+PF03364.27	Polyketide_cyc	A	ancillary	Polyketide cyclase/dehydrase family; tailoring annotation only.
+PF04673.20	Cyclase_polyket	A	ancillary	Polyketide synthesis cyclase; tailoring annotation only.
+PF21394.5	Beta-ketacyl_N	A	ancillary	Beta-ketoacyl synthase-like N-terminal family; auxiliary evidence pending benchmark validation.
+PF13489.14	Methyltransf_23	B	ancillary	DSYB/PgMT methyltransferase candidate family; Track B only and excluded from Track A clustering.
+PF01717.25	Meth_synt_2	B	ancillary	Cobalamin-independent methyltransferase catalytic family; Track B only.
+PF00891.25	Methyltransf_2	B	ancillary	O-methyltransferase family for Track B tailoring signatures; excluded from Track A.
+PF01596.24	Methyltransf_3	B	ancillary	O-methyltransferase family for Track B tailoring signatures; excluded from Track A.
+PF08242.20	Methyltransf_12	B	ancillary	Methyltransferase family for Track B tailoring signatures; excluded from Track A.
+PF13649.14	Methyltransf_25	B	ancillary	Methyltransferase family for Track B tailoring signatures; excluded from Track A.
+PF13847.14	Methyltransf_31	B	ancillary	Methyltransferase family for Track B tailoring signatures; excluded from Track A.
+PF04445.21	SAM_MT	B	ancillary	Putative SAM-dependent methyltransferase; Track B evidence only.
+PF00190.30	Cupin_1	B	ancillary	Cupin family including Alma-like DMSP lyase candidates; Track B evidence only.
+PF07883.19	Cupin_2	B	ancillary	Alternative cupin family for Alma-like candidate screening; Track B evidence only.
+PF04820.21	Trp_halogenase	B	ancillary	Tryptophan halogenase family; PrnA-like halogenase signature.
+PF00305.26	Lipoxygenase	B	ancillary	Lipoxygenase catalytic family; haptophyte oxylipin signature.
+PF01477.30	PLAT	B	ancillary	PLAT/LH2 accessory family; lipoxygenase architecture support only.
+PF00890.32	FAD_binding_2	B	ancillary	FAD-binding family; halogenase partner evidence rather than a specific call.
+PF01494.27	FAD_binding_3	B	ancillary	FAD-binding family associated with flavin-dependent enzymes; Track B only.
+PF01565.30	FAD_binding_4	B	ancillary	FAD-binding family associated with flavin-dependent enzymes; Track B only.
+PF07993.20	NAD_binding_4	B	ancillary	NAD-binding accessory family; redox architecture support only.
+PF03098.22	An_peroxidase	B	ancillary	Animal haem peroxidase family; exploratory oxylipin-related evidence only.
+PF02775.28	TPP_enzyme_C	B	ancillary	TPP-enzyme C-terminal family; DMSP-pathway candidate support only.
+PF00685.34	Sulfotransfer_1	B	ancillary	Sulfotransferase domain; deferred Track B expansion signature.
+PF05935.19	Arylsulfotrans	B	ancillary	Arylsulfotransferase family; deferred Track B expansion signature.
+PF14269.14	Arylsulfotran_2	B	ancillary	Alternative arylsulfotransferase family; deferred Track B expansion signature.
+PF08545.17	ACP_syn_III	A	negative_control	Bacterial KAS III N-terminal family; FAS off-target control and never hotspot backbone proof.
+PF08541.17	ACP_syn_III_C	A	negative_control	Bacterial KAS III C-terminal family; FAS off-target control.
+PF00195.26	Chal_sti_synt_N	A	negative_control	Type III PKS N-terminal family; non-gigasynthase PKS control.
+PF02797.22	Chal_sti_synt_C	A	negative_control	Type III PKS C-terminal family; non-gigasynthase PKS control.
+PF08392.19	FAE1_CUT1_RppA	A	negative_control	FAE1/type III PKS-like family; non-gigasynthase PKS control.
+PF08354.17	Fas1-AflB-like_hel	A	negative_control	FAS beta/Fas1-like helical domain; fungal FAS architecture control.
+PF22235.3	FAS1_thioest_ins	A	negative_control	FAS beta insertion domain; fungal FAS architecture control.
+PF18325.9	Fas_alpha_ACP	A	negative_control	FAS alpha acyl-carrier domain; FAS architecture control.
+PF22690.3	FAS_AT_central	A	negative_control	FAS central AT domain; FAS architecture control.
+PF18314.8	FAS_I_H	A	negative_control	Type I FAS helical domain; FAS architecture control.
+PF17951.8	FAS_meander	A	negative_control	FAS meander beta-sheet domain; FAS architecture control.
+PF17828.7	FAS_N	A	negative_control	FAS beta N-terminal domain; FAS architecture control.
+PF21149.5	FAS_pseudo-KR	A	negative_control	FAS pseudo-KR domain; FAS architecture control.
+PF18328.8	PfaD_N	A	negative_control	PUFA synthase PfaD N-terminal domain; PUFA off-target control.
+PF18094.9	SBS_FAS	A	negative_control	FAS SBS domain; FAS architecture control.
