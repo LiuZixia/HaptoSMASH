@@ -3,6 +3,8 @@ db_dir: "db"
 data_dir: "data"
 results_dir: "results"
 threads: 16
+pfam_release: "39.0"
+pfam_expected_count: 53275
 
 databases:
   antismash_dir: "db/antismash"
@@ -10,6 +12,8 @@ databases:
   pfam_dat: "db/pfam/Pfam-A.hmm.dat"
   mibig_prot: "db/mibig/mibig_prot_seqs_4.0.fasta"
   mibig_json_dir: "db/mibig/json/mibig_json_4.0"
+  custom_hmm: "db/custom_hmm/hapto_core.hmm"
+  custom_hmm_manifest: "db/custom_hmm/hapto_core.manifest.json"
 
 benchmarks:
   pkzilla_hotspots_bed: "data/benchmarks/pkzilla_truth/zenodo_10309063_hotspot_liftover/2023-12-08_Hotspot_liftover/v1.1_liftover_PKS_hotspots_5000.merge.bed"
@@ -19,3 +23,9 @@ benchmarks:
 
 seeds:
   pkzilla1: "resources/seeds/pkzilla1_uniprot_A0AB34IYJ6.faa"
+
+decontam:
+  references_manifest: "resources/decontam_refs/manifest.tsv"
+  tiara_min_len: 500
+  whokaryote_min_len: 1000
+  organelle_dir: "data/genomes/phaeocystis_osf_vka93/organellar genomes"

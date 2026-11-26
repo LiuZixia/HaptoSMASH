@@ -1,19 +1,19 @@
-sample_id	species	group	genome_fasta	gff3	proteins_faa
-pparvum_12B1_v1_1	Prymnesium_parvum	truth_benchmark	data/benchmarks/pkzilla_truth/zenodo_10309063_hotspot_liftover/2023-12-08_Hotspot_liftover/zenodo_items/doi--10.5281--zenodo.10023322/12B1_scaffolds_v1.1.fasta.gz	NA	data/benchmarks/pkzilla_truth/zenodo_11068523_pks_domain_to_module/12B1_v1.1.gff3__12B1_scaffolds_v1.1.fasta.pep.fa
-pparvum_GCA_041296205_1	Prymnesium_parvum	benchmark	data/genomes/prymnesium_parvum_ncbi/GCA_041296205.1/genome.fna	data/genomes/prymnesium_parvum_ncbi/GCA_041296205.1/annotation.gff3	data/genomes/prymnesium_parvum_ncbi/GCA_041296205.1/proteins.faa
-pparvum_GCA_040529085_1	Prymnesium_parvum	benchmark	data/genomes/prymnesium_parvum_ncbi/GCA_040529085.1/genome.fna	NA	NA
-pparvum_GCA_040529105_1	Prymnesium_parvum	benchmark	data/genomes/prymnesium_parvum_ncbi/GCA_040529105.1/genome.fna	NA	NA
-ehuxleyi_CCMP1516	Emiliania_huxleyi	benchmark	data/genomes/emiliania_huxleyi_CCMP1516/genome.fna	data/genomes/emiliania_huxleyi_CCMP1516/annotation.gff3	data/genomes/emiliania_huxleyi_CCMP1516/proteins.faa
-dlutheri_CCMP1325	Diacronema_lutheri	benchmark	data/genomes/diacronema_lutheri_CCMP1325/genome.fna	NA	NA
-ctobinii_CCMP291	Chrysochromulina_tobinii	benchmark	data/genomes/chrysochromulina_tobinii_CCMP291/genome.fna	data/genomes/chrysochromulina_tobinii_CCMP291/annotation.gff3	data/genomes/chrysochromulina_tobinii_CCMP291/proteins.faa
-pglobosa_CNS00066	Phaeocystis_globosa	flagship	data/genomes/phaeocystis_globosa_CNS00066/genome.fna	data/genomes/phaeocystis_globosa_CNS00066/annotation.gff3	data/genomes/phaeocystis_globosa_CNS00066/proteins.faa
-phaeocystis_GBNOY	Phaeocystis_sp	osf_panel	data/genomes/phaeocystis_osf_vka93/assemblies/GBNOY_cleaner2.fasta.gz	NA	NA
-phaeocystis_GBNOZ	Phaeocystis_sp	osf_panel	data/genomes/phaeocystis_osf_vka93/assemblies/GBNOZ_cleaner2.fasta.gz	NA	NA
-phaeocystis_GBNPA	Phaeocystis_sp	osf_panel	data/genomes/phaeocystis_osf_vka93/assemblies/GBNPA_cleaner2.fasta.gz	NA	NA
-phaeocystis_GBNPB	Phaeocystis_sp	osf_panel	data/genomes/phaeocystis_osf_vka93/assemblies/GBNPB_cleaner2.fasta.gz	NA	NA
-phaeocystis_GBNPH	Phaeocystis_sp	osf_panel	data/genomes/phaeocystis_osf_vka93/assemblies/GBNPH_cleaner2.fasta.gz	NA	NA
-phaeocystis_GBNPN	Phaeocystis_sp	osf_panel	data/genomes/phaeocystis_osf_vka93/assemblies/GBNPN_cleaner2.fasta.gz	NA	NA
-phaeocystis_GBNPP	Phaeocystis_sp	osf_panel	data/genomes/phaeocystis_osf_vka93/assemblies/GBNPP_cleaner2.fasta.gz	NA	NA
-phaeocystis_GBNPS	Phaeocystis_sp	osf_panel	data/genomes/phaeocystis_osf_vka93/assemblies/GBNPS_cleaner2.fasta.gz	NA	NA
-phaeocystis_GBNPT	Phaeocystis_sp	osf_panel	data/genomes/phaeocystis_osf_vka93/assemblies/GBNPT_cleaner2.fasta.gz	NA	NA
-phaeocystis_GCBAO	Phaeocystis_sp	osf_panel	data/genomes/phaeocystis_osf_vka93/assemblies/GCBAO_cleaner2.fasta.gz	NA	NA
+sample_id	species	strain	assembly_accession	source	group	genome_fasta	gff3	proteins_faa
+pparvum_12B1_v1_1	Prymnesium_parvum	12B1	12B1_v1.1	Zenodo:10023322	truth_benchmark	data/benchmarks/pkzilla_truth/zenodo_10309063_hotspot_liftover/2023-12-08_Hotspot_liftover/zenodo_items/doi--10.5281--zenodo.10023322/12B1_scaffolds_v1.1.fasta.gz	NA	data/benchmarks/pkzilla_truth/zenodo_11068523_pks_domain_to_module/12B1_v1.1.gff3__12B1_scaffolds_v1.1.fasta.pep.fa
+pparvum_GCA_041296205_1	Prymnesium_parvum	12B1	GCA_041296205.1	NCBI	benchmark	data/genomes/prymnesium_parvum_ncbi/GCA_041296205.1/genome.fna	data/genomes/prymnesium_parvum_ncbi/GCA_041296205.1/annotation.gff3	data/genomes/prymnesium_parvum_ncbi/GCA_041296205.1/proteins.faa
+pparvum_GCA_040529085_1	Prymnesium_parvum	ODER1	GCA_040529085.1	NCBI	benchmark	data/genomes/prymnesium_parvum_ncbi/GCA_040529085.1/genome.fna	NA	NA
+pparvum_GCA_040529105_1	Prymnesium_parvum	ODER1	GCA_040529105.1	NCBI	benchmark	data/genomes/prymnesium_parvum_ncbi/GCA_040529105.1/genome.fna	NA	NA
+ehuxleyi_CCMP1516	Emiliania_huxleyi	CCMP1516	GCF_000372725.1	NCBI	benchmark	data/genomes/emiliania_huxleyi_CCMP1516/genome.fna	data/genomes/emiliania_huxleyi_CCMP1516/annotation.gff3	data/genomes/emiliania_huxleyi_CCMP1516/proteins.faa
+dlutheri_CCMP1325	Diacronema_lutheri	CCMP1325	GCA_019693415.1	NCBI	benchmark	data/genomes/diacronema_lutheri_CCMP1325/genome.fna	NA	NA
+ctobinii_CCMP291	Chrysochromulina_tobinii	CCMP291	GCA_001275005.1	NCBI	benchmark	data/genomes/chrysochromulina_tobinii_CCMP291/genome.fna	data/genomes/chrysochromulina_tobinii_CCMP291/annotation.gff3	data/genomes/chrysochromulina_tobinii_CCMP291/proteins.faa
+pglobosa_CNS00066	Phaeocystis_globosa	CNS00066	GWHBJCL00000000	NGDC:GWHBJCL00000000	flagship	data/genomes/phaeocystis_globosa_CNS00066/genome.fna	data/genomes/phaeocystis_globosa_CNS00066/annotation.gff3	data/genomes/phaeocystis_globosa_CNS00066/proteins.faa
+phaeocystis_GBNOY	Phaeocystis_globosa	CCMP1524	GBNOY	OSF:vka93	osf_panel	data/genomes/phaeocystis_osf_vka93/assemblies/GBNOY_cleaner2.fasta.gz	NA	NA
+phaeocystis_GBNOZ	Phaeocystis_globosa	CCMP1528	GBNOZ	OSF:vka93	osf_panel	data/genomes/phaeocystis_osf_vka93/assemblies/GBNOZ_cleaner2.fasta.gz	NA	NA
+phaeocystis_GBNPA	Phaeocystis_globosa	CCMP1805	GBNPA	OSF:vka93	osf_panel	data/genomes/phaeocystis_osf_vka93/assemblies/GBNPA_cleaner2.fasta.gz	NA	NA
+phaeocystis_GBNPB	Phaeocystis_rex	CCMP2000	GBNPB	OSF:vka93	osf_panel	data/genomes/phaeocystis_osf_vka93/assemblies/GBNPB_cleaner2.fasta.gz	NA	NA
+phaeocystis_GBNPH	Phaeocystis_globosa	CCMP2710	GBNPH	OSF:vka93	osf_panel	data/genomes/phaeocystis_osf_vka93/assemblies/GBNPH_cleaner2.fasta.gz	NA	NA
+phaeocystis_GBNPN	Phaeocystis_globosa	CCMP2754	GBNPN	OSF:vka93	osf_panel	data/genomes/phaeocystis_osf_vka93/assemblies/GBNPN_cleaner2.fasta.gz	NA	NA
+phaeocystis_GBNPP	Phaeocystis_globosa	CCMP627	GBNPP	OSF:vka93	osf_panel	data/genomes/phaeocystis_osf_vka93/assemblies/GBNPP_cleaner2.fasta.gz	NA	NA
+phaeocystis_GBNPS	Phaeocystis_globosa	CCMP628	GBNPS	OSF:vka93	osf_panel	data/genomes/phaeocystis_osf_vka93/assemblies/GBNPS_cleaner2.fasta.gz	NA	NA
+phaeocystis_GBNPT	Phaeocystis_globosa	CCMP629	GBNPT	OSF:vka93	osf_panel	data/genomes/phaeocystis_osf_vka93/assemblies/GBNPT_cleaner2.fasta.gz	NA	NA
+phaeocystis_GCBAO	Phaeocystis_jahnii	CCMP2496	GCBAO	OSF:vka93	osf_panel	data/genomes/phaeocystis_osf_vka93/assemblies/GCBAO_cleaner2.fasta.gz	NA	NA
