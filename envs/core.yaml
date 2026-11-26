@@ -1,0 +1,33 @@
+name: haptosmash-core
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - pyhmmer
+  - biopython
+  - polars
+  - pandas
+  - numpy
+  - scipy
+  - pyranges
+  - matplotlib
+  - seaborn
+  - pyyaml
+  - pytest
+  - seqkit
+  - bedtools
+  - hmmer
+  - diamond
+  - mmseqs2
+  - miniprot
+  - mafft
+  - trimal
+  - iqtree
+  - hisat2
+  - samtools
+  - stringtie
+  - ncbi-datasets-cli
+  - sra-tools
+  - aria2
+  - pip

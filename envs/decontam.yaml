@@ -1,0 +1,9 @@
+name: haptosmash-decontam
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.8
+  - tiara=1.0.3
+  - whokaryote=1.1.2
+  - prodigal=2.6.3
